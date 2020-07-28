@@ -142,7 +142,7 @@ function renderFileList($root = null) {
   global $_SETTINGS;
 
   $cwd = getPath();
-  $root = $root == null ? dirname(__FILE__) : $root;
+  $root = $root === null ? dirname(__FILE__) : $root;
   $path = $root . '/' . $cwd;
 
   if (file_exists($path)) {

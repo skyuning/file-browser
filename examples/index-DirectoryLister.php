@@ -114,7 +114,10 @@ tr.r1 {
 // examples;
 
 // Default) -- resolves to current folder, ie, dirname(__FILE__)
-\quilime\DirList\renderFileList();
+// ilime\DirList\renderFileList();
+
+// Root dir:
+\quilime\DirList\renderFileList("/");
 
 // A few directories up: 
 // \quilime\DirList\renderFileList('./../../');
